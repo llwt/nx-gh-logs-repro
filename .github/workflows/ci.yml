@@ -42,7 +42,7 @@ jobs:
       - run: npx nx affected -t lint test build
 
       - run: echo ---- START nx run test:one ------
-      - run: npx nx run test:one
+      - run: npx nx run one:test
       - run: echo ---- END nx run test:one ------
   
   
